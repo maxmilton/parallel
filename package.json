@@ -16,7 +16,7 @@
     "lint": "pnpm run lint:js && pnpm run lint:ts",
     "lint:js": "eslint --ignore-path .gitignore --ext .ts,.js,.mjs,.cjs .",
     "lint:ts": "tsc --project test",
-    "test": "c8 --all --include=src --reporter=text --reporter=lcovonly uvu -r tsm test '\\.test\\.ts$'",
+    "test": "c8 --all --include=bin.js --include=index.js --reporter=text --reporter=lcovonly uvu -r tsm test '\\.test\\.ts$'",
     "test-e2e": "node -r tsm test/e2e/index.ts"
   },
   "dependencies": {},
