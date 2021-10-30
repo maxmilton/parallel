@@ -1,6 +1,6 @@
 {
   "name": "@maxmilton/parallel",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run NPM scripts in parallel.",
   "repository": "maxmilton/parallel",
   "author": "Max Milton <max@happycode.ltd>",
