@@ -1,0 +1,10 @@
+{
+  "name": "p2n",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parallel -n one two three",
+    "one": "echo 'one'",
+    "two": "echo 'two'",
+    "three": "echo 'three'"
+  }
+}

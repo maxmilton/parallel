@@ -1,0 +1,7 @@
+{
+  "name": "u1",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parallel undef"
+  }
+}

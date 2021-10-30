@@ -1,0 +1,7 @@
+{
+  "name": "u1n",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parallel -n undef"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "p2",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parallel one two three",
+    "one": "echo 'one'",
+    "two": "echo 'two'",
+    "three": "echo 'three'"
+  }
+}

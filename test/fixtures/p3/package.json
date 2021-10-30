@@ -1,0 +1,10 @@
+{
+  "name": "p3",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parallel one two three",
+    "one": "echo 'one'; sleep 0.1; echo 'one2'; sleep 0.1; echo 'one3'",
+    "two": "echo 'two'; sleep 0.15; echo 'two2'; sleep 0.03; echo 'two3'",
+    "three": "echo 'three'; sleep 0.07; echo 'three2'; sleep 0.2; echo 'three3'"
+  }
+}
