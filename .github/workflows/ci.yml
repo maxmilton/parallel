@@ -2,7 +2,12 @@ name: ci
 on: push
 jobs:
   test:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu, windows, macos]
+    name: test (${{ matrix.platform }})
+    runs-on: ${{ matrix.platform }}-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -13,6 +18,7 @@ jobs:
       # - run: pnpm run build
       - run: pnpm run test
       - name: Report coverage
+        if: ${{ matrix.platform == 'ubuntu' }}
         run: |
           curl -Lo ./cc-test-reporter https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
           chmod +x ./cc-test-reporter
