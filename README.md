@@ -16,7 +16,7 @@ npm add -D @maxmilton/parallel
 
 ## Usage
 
-`parallel [options] <script_name> ...`
+`parallel [options] <script_name ...>`
 
 ### Options
 
