@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@maxmilton/parallel': .
-      '@types/node': 16.11.7
+      '@types/node': 16.11.9
       '@typescript-eslint/eslint-plugin': 5.4.0
       '@typescript-eslint/parser': 5.4.0
       c8: 7.10.0
@@ -21,7 +21,7 @@ importers:
       uvu: 0.5.2
     devDependencies:
       '@maxmilton/parallel': 'link:'
-      '@types/node': 16.11.7
+      '@types/node': 16.11.9
       '@typescript-eslint/eslint-plugin': 5.4.0_d6f2571581882eb2d6c9d9867e002185
       '@typescript-eslint/parser': 5.4.0_eslint@8.2.0+typescript@4.5.2
       c8: 7.10.0
@@ -369,8 +369,8 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/node/16.11.7:
-    resolution: {integrity: sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==}
+  /@types/node/16.11.9:
+    resolution: {integrity: sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
