@@ -1,5 +1,6 @@
 const OFF = 0;
 const WARN = 1;
+const ERROR = 2;
 
 // TODO: Types
 // eslint-disable-next-line max-len
@@ -26,6 +27,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': OFF,
     strict: OFF,
 
+    '@typescript-eslint/explicit-module-boundary-types': ERROR,
     '@typescript-eslint/restrict-template-expressions': WARN,
     'import/extensions': WARN,
     'import/prefer-default-export': OFF,
