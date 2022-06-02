@@ -53,4 +53,4 @@ MIT license. See [LICENSE](https://github.com/maxmilton/parallel/blob/master/LIC
 
 ---
 
-© 2021 [Max Milton](https://maxmilton.com)
+© 2022 [Max Milton](https://maxmilton.com)
